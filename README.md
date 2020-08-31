@@ -10,7 +10,11 @@ Tshirt, Pants, Skirt, Blue, Yellow, Pink 버튼을 눌러 원하는 옷만 모�
 - JavaScript
 
 ## 3. 걸린시간
-- 2 days
+- 약 하루
 
-<img src="src/imgs/screenshot1.png" alt="" width="200" />
-<img src="src/imgs/screenshot2.png" alt="" width="200" />
+## 4. 미리보기
+
+<img src="src/imgs/screenshot1.png" alt="" width="400" />
+<img src="src/imgs/screenshot2.png" alt="" width="400" />
+
+## 5. 감상평
