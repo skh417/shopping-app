@@ -1,4 +1,5 @@
-# mini-shopping-app
+# mini-shopping-app 
+<a href="https://skh417.github.io/shopping-app/shopping-app.html">바로가기 ></a>
 
 ## 1. 개요
 바닐라 자바스크립트(Vanila JS)를 사용하여 간단한 필터기능 구현.
