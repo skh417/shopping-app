@@ -14,10 +14,9 @@ Tshirt, Pants, Skirt, Blue, Yellow, Pink 버튼을 눌러 원하는 옷만 모�
 
 ## 4. 미리보기
 
-<img src="src/imgs/screenshot1.png" alt="" width="400" />
-<img src="src/imgs/screenshot2.png" alt="" width="400" />
+<img src="src/imgs/screenshot1.png" alt="" width="400" /> <img src="src/imgs/screenshot2.png" alt="" width="400" />
 
-## 5. 감상평
+## 5. 후기
 드림코딩 앨리의 쇼핑미니게임 만들어보기 실습을 해보았다.
 이번 실습을 진행한 이유는 몇 가지가 있다.
 첫째, 개발공부의 초심을 잃지 않고 동기부여를 갖기 위해
