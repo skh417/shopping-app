@@ -12,10 +12,12 @@ function loadItems() {
 // html 만들어서 추가하기
 function displayItems(items) {
   const contentContainer = document.getElementsByClassName("contentUl")[0];
+
   contentContainer.innerHTML = items
     .map((item) => createHTMLString(item))
     .join("");
 }
+
 function createHTMLString(item) {
   return `
       <li class="contentList">
@@ -25,7 +27,7 @@ function createHTMLString(item) {
   `;
 }
 
-function setEventListender(items) {
+function setEventListener(items) {
   const logo = document.getElementsByClassName("logo")[0];
   const tags = document.getElementsByClassName("tags")[0];
   logo.addEventListener("click", () => {
@@ -36,6 +38,7 @@ function setEventListender(items) {
   });
 }
 
+// 버튼 클릭했을때
 function onButtonClick(event, items) {
   const dataset = event.target.dataset;
   const key = dataset.key;
@@ -45,12 +48,13 @@ function onButtonClick(event, items) {
     return;
   }
 
-  // console.log("온클릭 아이템즈", items);
+  console.log("온클릭 아이템즈", dataset);
   const filteredData = items.filter((item) => item[key] === value);
   displayItems(filteredData);
 }
 
+// 함수 호출!
 loadItems().then((items) => {
   displayItems(items);
-  setEventListender(items);
+  setEventListener(items);
 });
